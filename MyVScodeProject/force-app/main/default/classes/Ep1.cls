@@ -3,7 +3,7 @@ public class Ep1 {
     public void ChangeInt (integer a){
         a=20;
         system.debug('method :'+a);
-        system.debug('Hello i m in Vs code editor');
+        system.debug('Hello i m in Vs code Develop editor');
     }
     
     public void changeStr (Account a){

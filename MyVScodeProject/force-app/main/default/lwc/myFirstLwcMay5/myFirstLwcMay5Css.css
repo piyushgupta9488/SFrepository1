@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(0, 112, 210);
+    font-size: 50px;
+    background-color: yellow;
+    padding-left: 100px;
+}
+p {
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+    color: rgb(62, 62, 60);
+
+}
+.DIV1 {
+    background-color: orangered;
+    padding-left: 100px;
+    }
+.DIV2 {
+    background-color: white;
+    padding-left: 100px;
+}
+
+.DIV3 {
+    background-color: green;
+    padding-left: 100px;
+}
+
+.app {
+    background-color:white;
+    height: 100vh;
+    overflow: scroll;
+}

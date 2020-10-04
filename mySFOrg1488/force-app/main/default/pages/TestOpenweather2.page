@@ -1,0 +1,13 @@
+<apex:page standardController="account" extensions="TestOpenweather2">
+
+<apex:pageBlock title="{!city} weather prediction " > 
+
+<apex:pageBlockSection >
+
+<apex:pageMessages >  </apex:pageMessages>
+
+<apex:outputText label="temperature today is : " value="{!temp}" /> 
+</apex:pageBlockSection>
+
+</apex:pageBlock>
+</apex:page>

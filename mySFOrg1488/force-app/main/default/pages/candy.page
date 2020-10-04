@@ -1,0 +1,34 @@
+<apex:page standardcontroller="candidate__c" recordSetVar="candidate__c">
+
+  <apex:form >
+<apex:pageBlock title="Candidate Details Demo">
+<table border="2px">
+
+     <tr>
+                        <th>name</th>
+                        <th>Salary</th>
+                        <th>position</th>
+                    </tr>
+                    
+                           <apex:repeat value="{!candidate__c}" var="a" >
+                    <tr>
+                        <td>{! a.name}</td> 
+                        <td>{! a.current_ctc__c}</td>
+                        <td>{! a.position_applied_for__c}</td>
+                    </tr>
+            </apex:repeat>
+
+<apex:dataTable value="{!candidate__c}" var="cd" width="75%">
+
+<apex:column value="{!cd.name}" headerValue="Candidate Names"/>
+<apex:column value="{!cd.current_ctc__c}" headerValue="Salary"/>
+<apex:column value="{!cd.position_applied_for__c}" headerValue="Position Applied For"/>
+
+</apex:dataTable>
+
+
+</table>
+</apex:pageBlock>
+
+  </apex:form>
+</apex:page>

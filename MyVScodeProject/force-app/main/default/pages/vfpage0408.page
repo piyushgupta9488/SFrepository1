@@ -1,0 +1,13 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Welome to the world of visualforce page. </h1>
+  <br />
+  
+  This is your new Page
+  <br />
+  <h2> hello </h2>
+  
+  <!-- End Default Content REMOVE THIS -->
+  
+
+</apex:page>
